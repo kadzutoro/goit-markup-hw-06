@@ -1,0 +1,33 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    color: #434455;
+    background-color: #ffffff;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    font-style: normal;
+  }
+  
+  address {
+    font-style: normal;
+  }
+  
+  h3 {
+    color: #2e2f42;
+    margin: 0;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  p {
+    margin: 0;
+  }

@@ -1,36 +1,5 @@
-body {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  color: #434455;
-  background-color: #ffffff;
-}
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-  font-style: normal;
-}
-
-address {
-  font-style: normal;
-}
-
-h3 {
-  color: #2e2f42;
-  margin: 0;
-}
-
-img {
-  display: block;
-}
-
-p {
-  margin: 0;
-}
+  /* header */
 
 .header-top {
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
@@ -146,11 +115,7 @@ p {
   color: #404bbf;
 }
 
-.container {
-  padding: 0 15px;
-  margin: 0 auto;
-  width: 1158px;
-}
+  /* section-1 */
 
 .main-content-one {
   color: #fff;
@@ -196,23 +161,6 @@ p {
   background-color: #404bbf;
 }
 
-.section-desciption {
-  padding: 120px 0 120px;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .main-list {
   display: flex;
   gap: 24px;
@@ -253,6 +201,8 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+  /* section-2 */
 
 .section-team {
   background-color: #f4f4fd;
@@ -339,6 +289,8 @@ p {
 .icons-social {
   fill: #F4F4FD;
 }
+
+  /* section-3 */
 
 .section-portfolio {
   padding-top: 120px;
@@ -428,6 +380,8 @@ p {
   margin-bottom: 16px;
 }
 
+  /* footer */
+
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
@@ -489,6 +443,8 @@ p {
 .icons-social-footer{
   fill: #F4F4FD;
 }
+
+  /* backdrop */
 
 .backdrop {
   position: fixed;

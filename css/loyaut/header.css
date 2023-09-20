@@ -14,6 +14,7 @@
         line-height: 1.1em;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        font-family: "Raleway", sans-serif;
     }
 
     .studio {
@@ -23,11 +24,13 @@
         line-height: 1.1em;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        font-family: "Raleway", sans-serif;
     }
 
     .header-top {
         padding-top: 16px;
         padding-bottom: 16px;
+        display: flex;
     }
 
     .open-mobile-btn {
@@ -36,16 +39,16 @@
         padding: 0;
         line-height: 0;
         position: absolute;
-        top: 16px;
-        right: 16px;
         width: 24px;
         height: 24px;
+        margin-left: auto;
     }
 
-    .container-heder {
+    .container-header {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-left: auto;
     }
 
 /* .header-top {

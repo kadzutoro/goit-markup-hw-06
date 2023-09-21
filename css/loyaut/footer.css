@@ -122,7 +122,7 @@
       display: block;
       text-align: center;
     }
-    .footer-container {
+    .footer-logo-social-wrapper {
       margin-bottom: 72px;
     }
     .footer-text-two {
@@ -182,7 +182,7 @@
       justify-content: space-between;
     }
   
-    .footer-logo {
+    .footer-logo-social-wrapper {
       display: flex;
     }
   }

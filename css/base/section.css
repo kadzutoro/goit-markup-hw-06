@@ -1,13 +1,29 @@
 .section-desciption {
-    padding: 120px 0 120px;
+    padding: 96px 0 96px;
   }
 
   .section-team {
     background-color: #f4f4fd;
-    padding: 120px 0 120px;
+    padding: 96px 0 96px;
   }
 
   .section-portfolio {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  @media screen and (min-width: 1158px) {
+    .section-desciption {
+      padding: 120px 0 120px;
+    }
+  
+    .section-team {
+      background-color: #f4f4fd;
+      padding: 120px 0 120px;
+    }
+  
+    .section-portfolio {
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
   }

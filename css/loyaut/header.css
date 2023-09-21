@@ -30,8 +30,6 @@
     }
 
     .header-top {
-        padding-top: 16px;
-        padding-bottom: 16px;
         display: flex;
     }
 
@@ -142,6 +140,14 @@
         line-height: 1.5;
         letter-spacing: 0.02em;
       }
+
+      .adress-list {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        padding: 24px 0 24px;
+        margin: 0;
+      }
     }
 
 
@@ -181,12 +187,7 @@
     margin: 0;
   }
   
-  .adress-list {
-    display: flex;
-    gap: 40px;
-    padding: 24px 0 24px;
-    margin: 0;
-  }
+
   
   .studio {
     font-size: 18px;

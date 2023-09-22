@@ -203,4 +203,8 @@
     .footer-logo-social-wrapper {
       display: flex;
     }
+
+    .footer-logo {
+      margin-right: 120px;
+    }
   }
